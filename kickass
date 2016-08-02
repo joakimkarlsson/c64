@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+SCRIPTPATH="$(cd "$(dirname "$0")" ; pwd -P)"
+java -jar $(cygpath -m $SCRIPTPATH/tools/KickAssembler/KickAss.jar) "$@"
+
